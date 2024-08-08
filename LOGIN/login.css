@@ -1,0 +1,91 @@
+
+.box{  
+    margin: 170px auto;
+    
+}
+
+
+.box{
+    width: 400px;
+    border: 1px solid rgb(125, 184, 9);
+    border-radius: 5px;
+}
+
+.box .head{
+    height: 90px;
+    background: rgb(125, 184, 9);
+    border-radius: 5px 5px 0 0;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box .icon{
+    height: 45px;
+    margin-bottom: 20px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+  
+}
+.box .icon input{
+    height: 50px;
+    width: 300px;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+}
+.icon input:focus{
+    border-color:rgb(125, 184, 9);
+    box-shadow:rgb(136, 197, 16);
+}
+
+
+.box .icon i{
+    position: absolute;
+    width: 45px;
+    height: 52px;
+    color: white;
+    font-size: 20px;
+    background: rgb(125, 184, 9);
+    border: 1px solid rgb(125, 184, 9);
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box  .link a{
+    color:rgb(125, 184, 9);
+    font-size: 17px;
+    text-decoration: none;
+}
+.box .link a:hover{
+  text-decoration: underline;
+}
+.box button {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 0px;
+    background: rgb(125, 184, 9);
+    border: 1px solid rgb(125, 184, 9);
+    cursor: pointer;
+    padding: 9px 155px;
+    margin: 10px 20px;
+    border-radius: 5px;
+}
+button:hover{
+    background: rgb(119, 167, 23);
+}
+.box .link{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 17px;
+}
